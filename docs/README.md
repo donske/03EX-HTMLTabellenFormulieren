@@ -223,4 +223,17 @@ Maak een extern css bestand aan (vergeet niet te linken in je html) in de map **
 
     ![](images/b14.png)
 
--------
+        
+
+-----
+## Oefening Van der Beken: tabel - formulier
+Open de map **03-VanderBeken**. In deze map vind je de oplossing van de oefening uit les2.     
+Het doel is om in de pagina **contact.html**
+- de volgende tabel toe te voegen onder de paragraaf *Wij zijn op het bovenstaande adres bereikbaar op de onderstaande ogenblikken*.     
+Voeg ook hier weer de nodige css toe in een extern css bestand om de borders zichtbaar te maken.
+![](images/vdbTabel.PNG)
+
+- het volgende formulier toe te voegen onder de paragraaf *Vul volgend formulier in om een afspraak te maken (Naam - email - telefoon zijn verplicht)*.
+Het formulier wordt naar de server verstuurd naar *afspraak.php*, de verstuurde data is gevoelige informatie.
+Plaats alle label en overeenkostig form element in een p-element.
+![](images/vdbForm.PNG)
