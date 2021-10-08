@@ -6,7 +6,7 @@ Alle oefeningen over tabellen worden opgelost in de map **01-tabellen**.
 Maak in de map **oefening1** een nieuw bestand **index.html**. 
 Schrijf correcte html om een pagina te bekomen volgens onderstaande screenshot. Om de basis structuur van een html pagina snel aan te maken in de editor, gebruik je emmet (!tab).
 
-**Weergave borders:** maak in map **css** een bestand **styles.css** aan. Link dit css-bestand aan je html pagina.      
+**Weergave borders:** in de map **css** is er reeds een bestand **styles.css**. Link dit css-bestand aan je html pagina.      
 Voeg de juiste stijldeclaraties toe in je css bestand zodat de borders van de tabel worden weergegeven.     
 **TIP**: bekijk het voorbeeld uit de slides.
 
@@ -45,18 +45,11 @@ Hieronder zie je het resultaat van de drie tabellen.
 
 ![](images/l04.PNG)
 
-Maak eerst de **Prize pool** tabel, zoals hieronder. 
-
-![](images/l05.PNG)
-    
+Maak eerst de **Prize pool** table. 
 
 Vervolgens de **Participant** table
 
-![](images/l06.PNG)
-
 Tot slot de **Distribution** table. _Merk op dat deze tabel per rij 5 kolommen (zonder colspan) heeft!_
-
-![](images/l07.PNG)
 
 
 ---
@@ -156,7 +149,7 @@ Kies je favoriete kleur. Zorg ervoor dat rood (#ff0000) als kleur staat ingestel
 Kies je favoriete getal. Zorg ervoor dat 13 als default staat ingesteld. Je mag geen negatieve waarde kunnen ingeven. Dit is een verplicht veld.     
 ![](images/62.png)      
 Geef met een slider een score (tussen 0 en 20) aan dit vak. Default waarde is 15.       
-Om de score naast de slider weer te geven voorzie je een lege **span** tag met **id="score"**. Geef aan de slider (input tag) een **id="slider"**.      
+Om de score naast de slider weer te geven voorzie je een lege **output** tag met **id="score"**. Geef aan de slider (input tag) een **id="slider"**.      
 ![](images/63.png)          
 
 Het formulier wordt verstuurd met de POST method naar *je hogent e-mailadres* met als onderwerp **Poll**                       
@@ -235,5 +228,5 @@ Voeg ook hier weer de nodige css toe in een extern css bestand om de borders zic
 
 - het volgende formulier toe te voegen onder de paragraaf *Vul volgend formulier in om een afspraak te maken (Naam - email - telefoon zijn verplicht)*.
 Het formulier wordt naar de server verstuurd naar *afspraak.php*, de verstuurde data is gevoelige informatie.
-Plaats alle label en overeenkostig form element in een p-element.
+Plaats alle label-elementen en overeenkomstig form-element in p-elementen.
 ![](images/vdbForm.PNG)
